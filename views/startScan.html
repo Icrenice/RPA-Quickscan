@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/start.css">
+    <title>Springleaf</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/rsz_rsz_logo.png" width=""></img>
+        </div>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="testimonials.html" class="nav_link">Login</a></li>
+                <!-- <li class="nav_item"><a href="testimonials.html" class="nav_link">Testimonials</a></li> -->
+                <!-- <li class="nav_item"><a href="testimonials.html" class="nav_link">Testimonials</a></li> -->
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container-start">
+        <div class="showcase">
+            <div class="showcase-content">
+                <div>
+                    <form action="/startScan" method="post">
+                    <!-- <h1>RPA <br>Quickscan Automatiseer je proces</h1> -->
+                   
+                    <h1>Voer uw e-mailadres in om <br>feedback te ontvangen</h1>
+                    <input name="email" id="email" type="text" placeholder="E-mail"></input><br>
+
+                    <a id="voorwaarden" href="">Algemene Voorwaarden</a><br>
+                    <button type="submit" id="startScan">Start Scan</button><br>
+                    <!-- Display the 'error' variable, if it exists -->
+    <% if (error) { %>
+    <p>Error: <%= error %></p>
+    <% } %>
+    <p>Data: <%= data %></p>
+                </form>
+                </div>
+                <!-- <img src="img/background.png" height="450px" /> -->
+            </div>
+
+        </div>
+</body>
+<!-- <script src="main.js"></script> -->
+</html>

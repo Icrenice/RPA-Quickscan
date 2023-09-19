@@ -1,0 +1,84 @@
+@import "navbar.css";
+
+
+.container {
+  padding: 30px 30px 30px 30x;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.showcase {
+  background-color: white;
+  color: #333;
+  height: 600px;
+}
+
+
+.showcase .showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  /* background-image: url(../img/iceberg.jpg); */
+}
+
+.showcase .showcase-content img {
+  width: 50%;
+}
+
+.showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase .showcase-content p {
+  margin: 20px 0;
+}
+
+
+
+
+.showcase a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #f49b15;
+  border-color: #f49b15;
+  padding: 1rem;
+  border-radius: 3px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 4px solid transparent;
+}
+
+.button:hover{
+  background-color: #1b5e8f;
+  border-color: #1b5e8f;
+}
+
+#swirl{
+position: relative;
+margin-bottom: 0;
+margin-left: 0;
+}
